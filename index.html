@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Boris Manager</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/ddeca8a8f9.js"></script>
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+  <h1 class="display-4 text-center">Let's Hangout</h1>
+
+  <p class="text-center">Chill with Boris.</p>
+
+  <div class="container" id="form">
+      <form action="landing.html">
+        <div class="form-group">
+          <label class="font-weight-bold">Name <i class="fa fa-user" aria-hidden="true"></i></label>
+          <input type="text" class="form-control" placeholder="Who are you?" required>
+        </div>
+
+        <div class="form-group">
+          <label class="font-weight-bold">Message <i class="fa fa-comments" aria-hidden="true"></i></label>
+            <textarea class="form-control" placeholder="Add a message - what do you want?" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="font-weight-bold">Preferred Contact <i class="fa fa-paper-plane" aria-hidden="true"></i></i></label>
+            <select class="form-control" required>
+              <option value="" disabled selected hidden>...</option>
+              <option value="facebook">Facebook Messenger</option>
+              <option value="whatsapp">Whatsapp Text </option>
+              <option value="phone">Phone Call/Text </option>
+            </select>
+          </div>
+
+     <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+
+      </form>
+  </div>
+
+  <div class="faqLabel">
+    <p class="text-center"> Not receiving a response?  <span id="show" onclick="show()">Click to read the <strong>FAQ</strong></span>.</p>
+  </div>
+
+  <div class="faq" id="faq">
+    <table>
+      <tr>
+        <td><strong>1.</strong></td>
+        <td>Check if you are in good standing. If you are in bad standing, a response is unlikely. You may be flagged as bad standing if you have not fulfilled an agreement in the past.</td>
+      </tr>
+      <tr>
+        <td><strong>2.</strong></td>
+        <td>If you are in good standing, it is possible your message was not adequate, or of not enough priority. An example of a high priority event would be sushi, or any AYCE location.</td>
+      </tr>
+      <tr>
+        <td><strong>3.</strong></td>
+        <td>If you are <u><a href="https://youtu.be/4_LN0hznp-A?t=9s">Ahmed Nasman</a></u>, sod off. I'm keeping the jacket.</td>
+      </tr>
+    </table>
+  </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+
+    function hide() {
+      document.getElementById("form").style.display='none';
+    }
+
+    function show() {
+      document.getElementById("faq").style.display='block';
+    }
+
+    </script>
+
+  </body>
+</html>
