@@ -1,11 +1,11 @@
 html * {
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Kanit", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .container {
   font-size: 0.75em;
   padding: 10px;
-  max-width: 300px;
+  max-width: 320px;
   background-color: white;
   display: block;
   border-radius: 5px;
@@ -13,7 +13,7 @@ html * {
 }
 
 h1 {
-  padding-top: 15px;
+  padding-top: 60px;
   font-weight: bold;
   font-size: 2em;
 }
@@ -48,6 +48,7 @@ body {
 }
 
 .faqLabel {
+  display: none;
   padding-top: 15px;
   font-size: 11px;
 
