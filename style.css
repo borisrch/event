@@ -16,6 +16,7 @@ h1 {
   padding-top: 60px;
   font-weight: bold;
   font-size: 2em;
+  letter-spacing:1px;
 }
 
 #desc {
@@ -39,7 +40,7 @@ h1 {
 
 body {
 	width: 100wh;
-	height: 90vh;
+	height: 100vh;
 	background: linear-gradient(45deg, #FF5F6D, #ffc371, #7bc6cc, #EAECC6);
 	background-size: 400% 100%;
 	-webkit-animation: Gradient 15s ease infinite;
